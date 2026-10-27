@@ -11,7 +11,7 @@ This plugin listens to the daemon's lifecycle hooks and keeps waking the parent 
 ## Install
 
 ```bash
-paseo plugin add EPISTEX0/paseo-subagent-notifications
+paseo plugin add epistex-dev/paseo-subagent-notifications
 ```
 
 Plugins must be enabled on the daemon (**Settings → Plugins → Enable plugins**). Requires Paseo 0.8 or later. Server-only: no UI, no network, no filesystem access.
@@ -19,7 +19,7 @@ Plugins must be enabled on the daemon (**Settings → Plugins → Enable plugins
 From a local checkout:
 
 ```bash
-git clone https://github.com/EPISTEX0/paseo-subagent-notifications
+git clone https://github.com/epistex-dev/paseo-subagent-notifications
 cd paseo-subagent-notifications && npm install && npm run typecheck && npm test
 paseo plugin install "$PWD"
 ```
