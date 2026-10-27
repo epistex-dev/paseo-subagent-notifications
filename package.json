@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EPISTEX0/paseo-subagent-notifications"
+    "url": "https://github.com/epistex-dev/paseo-subagent-notifications"
   },
-  "author": "EPISTEX0",
+  "author": "epistex-dev",
   "license": "MIT"
 }
